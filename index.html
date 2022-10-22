@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="container text-center">
+            <div class="row">
+                <h2>
+                    Verificando consumo da API
+                </h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <div class="container text-center">
+                <div class="row">
+                    <center>
+                        <button type="button" class="btn btn-success" style="width:250px" onclick="requestOfServer()">
+                            Fazer chamada para servidor
+                        </button>
+                    </center>
+                    <div id="show-values" class="row">
+                        <strong>Desenvolvedor: </strong> <span id="developer"></span><br>
+                        <strong>Versão: </strong> <span id="version"></span><br>
+                        <strong>Valor da Variavel: </strong> <span id="value-of-variable"></span><br>
+                        <strong>Site da Empresa: </strong> <span id="company-site"></span>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+    </footer>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

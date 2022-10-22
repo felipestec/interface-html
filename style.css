@@ -1,0 +1,117 @@
+#show-values{
+    display: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*font: 18px kaushan_scriptregular;*/
+    background: #e59012;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+    text-align: center; 
+    margin-top: 30px; 
+    border: 1px solid;
+    border-radius: 2px;
+    padding-top: 15px;
+    box-shadow: 4px 5px 3px 0 #9f7141;
+}
+
+main {
+    height: 600px;
+}
+
+
+body > main > article {
+    text-align: center;
+}
+
+footer {
+        color: #fff;
+        background-color: #000;
+        height: 350px;
+        text-align: center;
+}
+
+footer > span {
+    position: relative;
+    top: 30px;
+    font-weight: 700;
+} 
+
+.sucess-record{
+    
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    width: 350px;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: rgb(13, 80, 39);
+}
+
+
+.sucess-record > div {
+    display: inline-block;
+}
+
+.sucess-record > div > svg {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    cursor: pointer;
+   
+}
+
+#sucess-record-msg{
+    display:none;
+}
+
+.error-record{
+    
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    width: 350px;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: rgb(109, 5, 5);
+}
+
+.error-record > div {
+    display: inline-block;
+}
+
+.error-record > div > svg {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    cursor: pointer;
+   
+}
+
+#error-record-msg{
+    display:none;
+}
+
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('fontes/kaushanscript/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('fontes/kaushanscript/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
